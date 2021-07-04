@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 768px) {
+  .hero_container{
+    background-position: 0 100% !important;
+    background-size: 100%;
+  }
+}
+
+.top_container{
+  background: rgb(26,76,237);
+  background: linear-gradient(90deg, rgba(26,76,237,1) 31%, rgba(142,183,251,1) 88%);
+
+}
+
